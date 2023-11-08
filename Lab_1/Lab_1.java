@@ -1,4 +1,4 @@
-package Lab_1;//package com.company;
+package Lab_1;
 
 import java.util.InputMismatchException;
 import java.util.Scanner;
