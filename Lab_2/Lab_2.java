@@ -34,7 +34,7 @@ public class Lab_2 {
             try {
                 for (int i = 0; i < a; i++) {
                     for (int j = 0; j < b; j++) {
-                        System.out.print("A[" + Integer.toString(i) + "][" + Integer.toString(j) + "]");
+                        System.out.print("A[" + i + "][" + j + "]");
                         matrixA[i][j] = sc.nextDouble();
                     }
                 }
@@ -67,7 +67,6 @@ public class Lab_2 {
                 System.out.print(Double.toString(matrixC[i][j]) + " | ");
             }
             System.out.println();
-            ;
         }
         for (int j = 0; j < matrixC[0].length; j++) {
             temp = matrixC[0][j];
